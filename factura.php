@@ -46,7 +46,8 @@ $pretotal2 = $cant2*$val2;
 
 $valortotal = array($pretotal1,$pretotal2);
 $suma = array_sum($valortotal);
-
+$iva= $suma * 0.19;
+$valorpagar = $suma+$iva
 
 
 
